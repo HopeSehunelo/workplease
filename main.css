@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  display: grid;
+  width: 100%;
+  height: 200vh;
+
+  background-color: bisque;
+  margin: 0;
+}
+main {
+  display: grid;
+
+  gap: 10px;
+  text-align: center;
+  margin: 0;
+}
+header {
+  background: beige;
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+
+  font-size: 1.2rem;
+  font-style: Arial, Helvetica, sans-serif;
+  color: goldenrod;
+  border: rgb(63, 86, 166) solid 5px;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #e7cfa6;
+  z-index: -1;
+}
+nav {
+  background: bisque;
+  width: 100%;
+}
+.navbar {
+  font-size: 25px;
+  margin-left: 850px;
+  margin-top: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(63, 86, 166);
+}
+.logo {
+  margin-left: 10px;
+  margin-top: -30px;
+}
+.nav-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.nav-menu ul {
+  list-style: none;
+}
+
+.nav-menu li {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.home {
+  font-size: 25px;
+  margin-left: 1800px;
+  margin-top: -30px;
+  font-family: postable;
+  color: goldenrod;
+  text-decoration: dotted;
+}
+.thumbnails {
+  list-style-type: none;
+  place-items: center;
+  margin-left: 550px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 300px;
+}
+.click-me {
+  font-size: 18px;
+  font-weight: bold;
+  color: #337ab7;
+  cursor: pointer;
+}
+
+.click-me:hover {
+  color: #23527c;
+}
+header {
+  background: beige;
+  padding: 0px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: minion variable concept;
+  color: goldenrod;
+  border: rgb(63, 86, 166) solid 5px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.table-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+}
+.animation-container {
+  width: 200px;
+  height: 200px;
+  background-color: #e7cfa6;
+  border: 5px solid #32419a;
+  margin: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate-element {
+  font-size: 30px;
+  font-weight: bold;
+  color: #32419a;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 0;
+  width: 100vw;
+  height: 20vh;
+  background-color: #32419a;
+  font-size: 1rem;
+  color: black;
+}
